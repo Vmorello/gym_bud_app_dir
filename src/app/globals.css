@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    input {
+      @apply border-solid border-2 border-l-neutral-600;
+      @apply bg-slate-300 ;
+      @apply dark:bg-slate-600;
+    }
+}
